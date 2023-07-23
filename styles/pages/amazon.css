@@ -112,13 +112,18 @@
 }
 
 .added-to-cart {
+  /* Not Visible */
   color: rgb(6, 125, 98);
   font-size: 16px;
-
   display: flex;
   align-items: center;
   margin-bottom: 8px;
   opacity: 0;
+}
+
+.added-to-cart-visible {
+  /* Is Visible */
+  opacity: 1;
 }
 
 .added-to-cart img {
