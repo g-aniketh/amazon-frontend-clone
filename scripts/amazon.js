@@ -93,7 +93,7 @@ document.querySelectorAll(".js-add-to-cart").forEach((button) => {
     document.querySelector(".js-cart-quantity").innerHTML = cartQuantity;
 
     const addedMessage = document.querySelector(
-      ".js-added-to-cart-${product.id}"
+      `.js-added-to-cart-${product.id}`
     );
 
     addedMessage.classList.add("added-to-cart-visible");
